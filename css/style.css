@@ -206,6 +206,22 @@ p {
     text-transform: capitalize;
 }
 
+@media screen and (min-width: 810px) {
+    .watch-card {
+        display: flex;
+    }
+
+    .watch-content {
+        display: flex;
+        flex-flow: column;
+        justify-content: center;
+    }
+
+    .img-right {
+        order: 2;
+    }
+}
+
 /* -------------------------------------------------------------
     END WATCH SECTION STYLES
 ------------------------------------------------------------- */
