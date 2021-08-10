@@ -225,3 +225,103 @@ p {
 /* -------------------------------------------------------------
     END WATCH SECTION STYLES
 ------------------------------------------------------------- */
+
+/* -------------------------------------------------------------
+    START DOWNLOAD SECTION STYLES
+------------------------------------------------------------- */
+
+.download-card {
+    margin-bottom: 1em;
+}
+
+.download-content {
+    background-color: white;
+}
+
+.download-content a {
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 1em 2em;
+}
+
+.download-content a i {
+    font-size: 2.5em;
+}
+
+.download-info {
+    padding: 1em 2em;
+}
+
+.download-info h4 {
+    margin: 0;
+}
+
+.download-info p {
+    margin: 0;
+    font-size: .9em;
+}
+
+.download-info img {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+}
+
+.download-rating {
+    background-color: #f6d200;
+    padding: 1em 2em;
+    color: black;
+    font-size: 0.9em;
+}
+
+.download-rating .rate {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: -.25em;
+}
+
+.download-content {
+    display: flex;
+    flex-flow: column;
+}
+
+.download-content a, .download-rating {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.download-cast, .download-genre {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.download-info h4 {
+    flex-basis: 20%;
+}
+
+.download-genre {
+    margin-bottom: 10px;
+}
+
+@media screen and (min-width: 810px) {
+    .download-content {
+        display: flex;
+        flex-flow: row;
+    }
+
+    .donwload-info {
+        flex-grow: 2;
+    }
+
+    .download-content a, .download-rating {
+        flex-grow: 1;
+    }
+}
+
+/* -------------------------------------------------------------
+    END DOWNLOAD SECTION STYLES
+------------------------------------------------------------- */
