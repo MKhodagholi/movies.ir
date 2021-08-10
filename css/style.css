@@ -156,6 +156,56 @@ p {
     }
 }
 
-/* ------------------------------------------------------------
+/* -------------------------------------------------------------
     END THE POST STYLES
--------------------------------------------------------------*/
+------------------------------------------------------------- */
+
+/* -------------------------------------------------------------
+    START WATCH SECTION STYLES
+------------------------------------------------------------- */
+
+.section-header {
+    color: black;
+    font-size: 3em;
+    text-align: center;
+}
+
+.watch-card {
+    margin-bottom: 1em;
+}
+
+.watch-content {
+    background-color: black;
+    color: white;
+    padding: 3em;
+}
+
+.watch-content h2 {
+    font-size: 2em;
+    font-weight: 300;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.movie-info {
+    font-weight: bold;
+}
+
+.movie-info span {
+    padding-right: 1.5em;
+}
+
+.movie-story {
+    margin: 1em 0;
+}
+
+.watch-content a {
+    color: red;
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+/* -------------------------------------------------------------
+    END WATCH SECTION STYLES
+------------------------------------------------------------- */
