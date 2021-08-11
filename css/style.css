@@ -27,7 +27,7 @@ footer {
 }
 
 .sidebar-right {
-    background-color: blue;
+    background-color: #ededed;
     color: white;
 }
 
@@ -366,4 +366,51 @@ p {
 
 /* -------------------------------------------------------------
     END GALLERY SECTION STYLES
+------------------------------------------------------------- */
+
+/* -------------------------------------------------------------
+    START SIDEBAR RIGHT STYLES
+------------------------------------------------------------- */
+
+.sidebar-right {
+    padding: 2em;
+    color: black;
+}
+
+.widget {
+    background-color: white;
+    margin-bottom: 2em;
+}
+
+.widget-content {
+    padding: 0.5em 2em;
+}
+
+.sidebar-right ul {
+    list-style-type: none;
+    padding-left: 1em;
+}
+
+.sidebar-right ul a {
+    display: block;
+    padding-bottom: .4em;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+@media screen and (min-width: 810px) and (max-width: 1120px) {
+    .sidebar-right {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .sidebar-right .widget {
+        flex-basis: 49%;
+    }
+}
+
+/* -------------------------------------------------------------
+    END SIDEBAR RIGHT STYLES
 ------------------------------------------------------------- */
