@@ -325,3 +325,45 @@ p {
 /* -------------------------------------------------------------
     END DOWNLOAD SECTION STYLES
 ------------------------------------------------------------- */
+
+
+/* -------------------------------------------------------------
+    START GALLERY SECTION STYLES
+------------------------------------------------------------- */
+
+.gallery-imgs {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -8px;
+}
+
+.gallery-img {
+    height: 250px;
+    flex-grow: 1;
+    margin: 0 0 8px 8px;
+}
+
+.gallery-img img {
+    height: 100%;
+    object-fit: cover;
+}
+
+.gallery-img:nth-child(4n+1) {
+    flex-basis: 250px;
+}
+
+.gallery-img:nth-child(4n+2) {
+    flex-basis: 325px;
+}
+
+.gallery-img:nth-child(4n+3) {
+    flex-basis: 180px;
+}
+
+.gallery-img:nth-child(4n+4) {
+    flex-basis: 380px;
+}
+
+/* -------------------------------------------------------------
+    END GALLERY SECTION STYLES
+------------------------------------------------------------- */
